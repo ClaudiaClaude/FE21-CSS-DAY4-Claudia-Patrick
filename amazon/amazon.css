@@ -9,7 +9,7 @@ body {
 .navigation-desktop {
     display: grid;
     height: 50px;
-    background: #232F3E;
+    background: #131921;
 
     grid-template-columns: 25% 1fr 25%;
 
@@ -159,3 +159,63 @@ input[type="image"] {
 
 .flag {margin-top:0.8em;}
 
+/*Navbar starts */
+
+.navbar {
+    display: grid;
+    grid-template-columns:  1fr 35% ;
+    height: 50px;
+    background: #232F3E;
+    color: white;
+}
+
+ul {
+    
+    list-style: none;
+ 
+}
+
+li {
+    display: inline;
+    float: left;
+    padding: 0.5em;
+    line-height: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fashion {
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+.hero {
+    width: 100%;
+}
+
+#hero-background {
+    width: 100%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    height: 350px;
+    gap: 2em 2em;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    top: -150px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.boxes {
+    border: 1px solid black;
+    background: white;
+}
+
+
+.container {
+    width: 100%;
+}
