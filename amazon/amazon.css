@@ -13,11 +13,30 @@ div {
 }
 
 .nav-left {
+    display: flex;
+    width: 25%;
+}
+.nav-global {
+    display: flex;
+    width: 50%;
+}
+
+.nav-fill {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-center {
+    width: 50%;
+}
+.nav-right {
+    display: flex;
     width: 25%;
 }
 
 #logo {
-    width: 50%;
+    width: 30%;
     
    
 }
