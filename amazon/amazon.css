@@ -1,0 +1,23 @@
+div {
+    border: 1px solid black;
+}
+
+.navigation-desktop {
+    display: flex;
+    height: 50px;
+    background: #232F3E;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+}
+
+.nav-left {
+    width: 25%;
+}
+
+#logo {
+    width: 50%;
+    
+   
+}
