@@ -1,42 +1,161 @@
-div {
-    border: 1px solid black;
+body {
+    margin:0;
+    padding:0;
 }
+
+
+/* -----------------//Navigation Header//------------------------------*/
 
 .navigation-desktop {
-    display: flex;
+    display: grid;
     height: 50px;
     background: #232F3E;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-basis: 100%;
+
+    grid-template-columns: 25% 1fr 25%;
+
+    overflow:hidden;
 }
+
+/* Left Section /// Navbar */
 
 .nav-left {
-    display: flex;
-    width: 25%;
+
+    width: 100%;
+    height:100%;
+
+    display: grid;
+    grid-template-columns: 55% 15% 30%;
+
 }
 .nav-global {
+
     display: flex;
-    width: 50%;
+
+    width: 100%;
+    height:100%;
+
 }
 
+.nav-global p {
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:0.8em;
+    line-height: 1em;
+}
+
+.locotext {font-weight:bold; font-size:1.2em;}
+
+.nav-logo {
+
+    padding:0.5em 1em;
+}
+
+
+#logo {
+    width:85%;
+    height:85%;
+
+   
+}
+
+#loco { margin:auto;}
+
+#loco img { width:60%;}
+
+
+
+/* Middle Section /// Navbar */
+
 .nav-fill {
-    flex-basis: 100%;
-    display: flex;
-    justify-content: space-between;
+
+    display: grid;
+    height:75%;
+    
+    grid-template-columns: 50px 1fr 60px;
+
+    border:4px solid #FF9900;
+    border-radius: 5px;
+}
+
+.nav-fill .nav-left {
+
+    width:100%;
+    height:100%;
+    background-color:#FEBD69;
+
+}
+
+.nav-left select {
+    
+    width:3.5em; 
+    background-color:#F3F3F3;
 }
 
 .nav-center {
-    width: 50%;
-}
-.nav-right {
-    display: flex;
-    width: 25%;
+    width: 100%;
+    height:100%;
 }
 
-#logo {
-    width: 30%;
-    
-   
+.nav-center input {
+    width:100%;
+    line-height: 2.5em;
+
 }
+
+
+
+.fill-right {
+
+    width:100%;
+    height:100%;
+    background-color:#FEBD69;
+
+}
+
+
+#lookglass { 
+    width:40%;
+    height:auto;
+
+
+
+}
+input[type="image"] {
+    margin-left:1.2em;
+    margin-top:0.5em;
+}
+
+
+
+
+/* Right Section /// Navbar */
+
+
+.nav-right {
+
+    display:grid;
+
+    grid-template-columns: 15% 45% 20% 20%;
+
+    width: 100%;
+    height: 100%;
+
+ 
+}
+
+.nav-right p {
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:0.8em;
+    line-height: 1em;
+}
+
+.cart, .flag{
+    width:100%;
+    padding:0.5em;
+}
+.cart img, .flag img {width:50%;}
+
+
+.flag {margin-top:0.8em;}
+
